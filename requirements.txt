@@ -1,0 +1,5 @@
+Pillow==9.5.0
+smtplib==3.13.0
+email-mime-multipart==3.0.8
+email-mime-base==3.0.8
+email-mime-text==3.0.8
