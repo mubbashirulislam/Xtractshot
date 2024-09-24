@@ -34,7 +34,7 @@ This will install all the necessary dependencies for the X3NIDE Screenshot Captu
 
 ## Configuration
 
-Before running the tool, you'll need to configure the following settings in the `config.py` file:
+Before running the tool, you'll need to configure the following settings in the `configuration` section:
 
 - `email_address`: Your email address
 - `password`: Your email password
@@ -46,7 +46,7 @@ Make sure to update these values with your own information.
 
 ## Usage
 
-To run the X3NIDE Screenshot Capture Tool, simply execute the `screenshot.py` script:
+To run the Xtractshot, simply execute the `screenshot.py` script:
 
 ```
 python screenshot.py
