@@ -1,8 +1,10 @@
 
 # Xtractshot
 
-The Xtractshot is a Python-based utility designed for ethical hacking and system auditing purposes. It allows you to automatically capture and send screenshots of your system at a specified interval to a designated email address.
 ![screenshot](banner.png)
+
+The Xtractshot is a Python-based utility designed for ethical hacking and system auditing purposes. It allows you to automatically capture and send screenshots of your system at a specified interval to a designated email address.
+
 ## Table of Contents
 - [Installation](#installation)
 - [Configuration](#configuration)
