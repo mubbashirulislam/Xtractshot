@@ -32,7 +32,7 @@ Then, open a terminal or command prompt, navigate to the project directory, and 
 pip install -r requirements.txt
 ```
 
-This will install all the necessary dependencies for the X3NIDE Screenshot Capture Tool.
+This will install all the necessary dependencies for the Xtractshot.
 
 ## Configuration
 
