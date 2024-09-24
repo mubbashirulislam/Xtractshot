@@ -64,15 +64,8 @@ I, Mubbashirul Islam, will not be responsible for any misuse or illegal activiti
 
 ## Acknowledgements
 
-This project was developed with the help of an AI assistant. The AI provided guidance and suggestions to enhance the functionality, optimize the code, and create a comprehensive README file.
+Created by **Mubbashirul Islam** (a.k.a **X3NIDE**), using my own knowledge and with the assistance of AI.
 
-I would like to acknowledge the valuable contribution of the AI assistant in the development of the Xtractshot.
+Feel free to contribute or reach out for further improvements!
 ```
 
-This README file covers the following:
-
-1. **Installation**: Provides instructions on how to install the necessary Python dependencies using a `requirements.txt` file.
-2. **Configuration**: Explains the configuration settings that need to be updated in the `config.py` file.
-3. **Usage**: Describes how to run the `screenshot.py` script and stop the tool.
-4. **Disclaimer**: Includes a clear disclaimer about the intended use of the tool and the developer's non-responsibility for any misuse or illegal activities.
-5. **Acknowledgements**: Acknowledges the contribution of the AI assistant in the development of the tool.
