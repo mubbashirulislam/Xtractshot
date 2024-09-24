@@ -58,15 +58,15 @@ You can stop the script by pressing `Ctrl+C` in the terminal or command prompt.
 
 ## Disclaimer
 
-The X3NIDE Screenshot Capture Tool is designed for ethical hacking and system auditing purposes. It should only be used with proper consent and in compliance with local laws, regulations, and privacy standards. Any unauthorized use of this tool for malicious intent is strictly prohibited and punishable by law.
+The Xtractshot is designed for ethical hacking and system auditing purposes. It should only be used with proper consent and in compliance with local laws, regulations, and privacy standards. Any unauthorized use of this tool for malicious intent is strictly prohibited and punishable by law.
 
-I, the developer, will not be responsible for any misuse or illegal activities conducted with this tool. It is your responsibility to ensure that your usage of this tool is within the boundaries of ethical and legal practices.
+I, Mubbashirul Islam, will not be responsible for any misuse or illegal activities conducted with this tool. It is your responsibility to ensure that your usage of this tool is within the boundaries of ethical and legal practices.
 
 ## Acknowledgements
 
 This project was developed with the help of an AI assistant. The AI provided guidance and suggestions to enhance the functionality, optimize the code, and create a comprehensive README file.
 
-I would like to acknowledge the valuable contribution of the AI assistant in the development of the X3NIDE Screenshot Capture Tool.
+I would like to acknowledge the valuable contribution of the AI assistant in the development of the Xtractshot.
 ```
 
 This README file covers the following:
